@@ -1,0 +1,20 @@
+# --- ch32fun / RISC-V build artifacts (all projects under test/) ---
+*.elf
+*.bin
+*.hex
+*.lst
+*.map
+*.o
+*.d
+# generated linker script emitted into the ch32fun tree
+generated__*.ld
+
+# --- editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
